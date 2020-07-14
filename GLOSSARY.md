@@ -192,6 +192,10 @@ Istio 不提供[服务发现](https://en.wikipedia.org/wiki/Service_discovery)�
 
 Sidecar proxy 简称 sidecar。Sidecar 为在应用程序旁运行的单独的进程，它可以为应用程序添加许多功能，而无需在应用程序中添加额外的第三方组件，或修改应用程序的代码或配置。
 
+## Skywalking
+
+Skywalking是一个apm系统，被用于追踪、监控和诊断分布式系统，特别是使用微服务架构，云原生或容积技术。
+
 ## Source
 
 Source 是 [sidecar](#sidecar) 代理的下游客户端。在[服务网格](#service-mesh)里，source 通常是一个[工作负载](#workload)，但是入口流量的 source 有可能包含其他客户端，例如浏览器，或者一个移动应用。
